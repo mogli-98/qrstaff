@@ -1,0 +1,129 @@
+.pricinghead{
+  font-size:8vw;
+  font-family: "Copperplate",  Fantasy;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: #232c59;
+}
+.cardborder{
+    border-width: 1mm;
+}
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: rgb(250, 250, 250);
+    overflow:visible;;
+  }
+  .zero{
+    font-size:3vw;
+    font-family: "Copperplate",  Fantasy;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #232c59;
+  }
+  .blanck{
+    background-color: rgb(250, 250, 250);
+    z-index: 1000;
+    overflow: hidden;
+    display:none;
+  }
+  .pricebutton
+  {
+    border-radius: 15px;
+    height:40px;
+    padding: 2px 10px;
+    color:#232c59;  
+  }
+  .pricebutton:hover
+  {
+    color: aliceblue;
+    background-color: #232c59; 
+  }
+  .pricebuttonactive
+  {
+    background-color: #232c59; 
+    border-radius: 15px;
+    height:40px;
+    padding: 2px 10px;
+    color: aliceblue;
+  }
+  .pricebuttonactive:hover{
+      color:#232c59;
+      background-color: aliceblue;
+      ; 
+  }
+  
+  .accordioncolor{
+    background-color: rgb(208, 226, 226);
+  }
+  .accordion{
+    overflow: hidden;
+    --bs-accordion-btn-bg: rgb(208, 226, 226);
+    --bs-accordion-bg: rgb(208, 226, 226);
+    --bs-accordion-active-bg: rgb(208, 226, 226);
+    --bs-accordion-transition:rgb(208, 226, 226) ;
+  }
+  .accordion-button {
+    position: unset;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x);
+    font-size: 1rem;
+    color: var(--bs-accordion-btn-color);
+    text-align: left;
+    background-color: var(--bs-accordion-btn-bg);
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+    transition: var(--bs-accordion-transition);
+}
+
+  .btn{
+    height: 50px;
+    background-color: #182973 !important;
+  }
+
+  @media(min-width: 769px) {
+    .mobileColumnGroup {
+        display: none;
+   }
+}
+@media(max-width: 769px) {
+    .rowHeader, .emptyCell {
+        display: none;
+   }
+}
+.tableContainer {
+    overflow: auto;
+    max-height: 500px;
+}
+.phonethead .phonetr {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+.rowHeader, [scope="colgroup"] span {
+    left: 0;
+    position: sticky;
+}
+.pricetable {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+.phonetd, .phoneth {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    min-width: 100px;
+    background: #ffffff;
+}
+.featureCheck {
+ color: green;
+}
+.featureX {
+ color: red;
+}

@@ -1,0 +1,67 @@
+.aboutheading{
+    font-size:8vw;
+    font-family: "Copperplate",  Fantasy;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #232c59;
+}
+.aboutimg{
+    width: -webkit-fill-available;
+    height: 50%;
+    margin-top: 50px;
+    
+}
+.Contactheading
+{
+    font-size:8vw;
+    font-family: "Copperplate",  Fantasy;
+    margin-top: 75px;
+    margin-bottom: 15px;
+    color: #232c59;
+}
+.subcontactheading{
+    font-size:2vw;
+   
+    margin-top: 10px;
+    margin-bottom: 70px;
+    color: #232c59; 
+}
+
+.contact-link{
+    text-decoration:none;
+}
+.conatct-button{   
+    color: #232c59;
+    border-radius: 10px;
+    border-color: #232c59;
+    height:40px;
+    padding: 2px 24px;
+   
+}
+.conatct-button:hover{
+ color: aliceblue;
+ background-color: #232c59;
+}
+@media screen and (max-width: 480px) {
+    .aboutheading{
+        font-size:15vw;
+        font-family: "Copperplate",  Fantasy;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        color: #232c59;
+    }
+    .Contactheading
+    {
+    font-size:15vw;
+    font-family: "Copperplate",  Fantasy;
+    margin-top: 75px;
+    margin-bottom: 15px;
+    color: #232c59;
+    }
+    .subcontactheading{
+        font-size:5vw;
+        margin-top: 10px;
+        margin-bottom: 50px;
+        color: #232c59; 
+    }
+}

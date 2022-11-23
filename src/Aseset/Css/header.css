@@ -1,0 +1,63 @@
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+
+
+.megamenu1 {
+  background: none;
+  border: none;
+  width: 500px;;
+ 
+}
+.megamenu2 {
+  position: static;
+}
+
+.megamenu2 .dropdown-menu {
+  background: none;
+  border: none;
+  width: 100%;
+}
+.megamenu3 {
+  position: static;
+}
+
+.megamenu3 .dropdown-menu {
+  background: none;
+  border: none;
+  width: 100%;
+}
+.header-button{
+   background-color: rgba(224, 238, 233, 0);
+  border-radius: 10px;
+  border-color: 232c59;
+  height:40px;
+  padding: 1px 24px;
+  color: #232c59;
+  width: 199px;
+  font: 1em sans-serif;
+}
+.header-button:hover{
+  background-color: #232c59;
+ border-radius: 10px;
+ border-color: #232c59;
+ height:40px;
+ padding: 1px 24px;
+ color:aliceblue;
+ width: 199px;
+ font: 1em sans-serif;
+}
+/*
+*
+* ==========================================
+* FOR DEMO PURPOSES
+* ==========================================
+*
+*/
+
+
+
